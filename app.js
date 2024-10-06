@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express = require("express");
+var db_1 = require("./db");
+var recipeRoutes_1 = require("./recipeRoutes");
+var app = express();
+(0, db_1.default)();
+app.use(express.json());
+app.use("/api", recipeRoutes_1.default);
+var PORT = process.env.PORT || 5000;
+app.listen(PORT, function () { return console.log("Server running on port ".concat(PORT)); });

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Smashed Potatoes",
+    "time": "20",
+    "photo": "../config/images/photo.jpg"
+  },
+  {
+    "title": "Spaghetti Carbonara",
+    "time": "30",
+    "photo": "../config/images/photo.jpg"
+  },
+  {
+    "title": "Chicken Tikka Masala",
+    "time": "40",
+    "photo": "../config/images/photo.jpg"
+  }
+]
